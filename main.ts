@@ -38,6 +38,7 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     microIoT.microIoT_clear()
+    microIoT.microIoT_ledBlank(PIN.P15)
     microIoT.microIoT_showUserText(0, "Ready!")
     count = 1
 })
